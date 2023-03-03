@@ -1,0 +1,96 @@
+.App {
+  text-align: center;
+  justify-content: center;
+}
+
+.maindiv{
+  background-color: #F5F7FB;
+  position: relative;
+  margin: auto;
+  margin-top: 5%;
+  height: 580px;
+  width: 550px;
+  padding-top: 20px;
+}
+
+.blueBlob{
+  height: 100px;
+  width: 100px;
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  
+}
+
+.yellowBlob{
+  height: 100px;
+  width: 100px;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+}
+
+.startbtn{
+  height: 52px;
+  width: 192px;
+  background-color: #4D5B9E;
+  color: white;
+  border-radius: 15px;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.quizzy{
+  padding-top: 175px;
+}
+
+.options{
+  display: flex;
+  padding-bottom: 2.5px;
+}
+
+.option{
+  display: flex;
+  margin-right: 7.5px;
+  border: 1px solid #293264;
+  border-radius: 5px;
+  color: #4D5B9E;
+  height: 30px;
+  width: 90px;
+  text-align: center;
+  align-items: center;
+  justify-content:center;
+  font-size: 11px;
+  cursor: pointer;
+}
+
+.quess{
+  text-align: left;
+  margin-left: 75px;
+  max-width: 400px;
+  color: #293264;
+}
+
+hr{
+  width: 430px;
+  color:#293264;
+}
+
+.aques{
+  font-size: 14px;
+}
+
+.submit{
+  background-color: #4D5B9E;
+  color: white;
+  border-radius: 10px;
+  height: 35px;
+  width: 120px;
+  margin-top: 7.5px;
+  cursor: pointer;
+}
+
+.scoredisplay{
+  font-size: 20px;
+  color: #4D5B9E;
+}
